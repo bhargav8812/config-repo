@@ -1,18 +1,8 @@
-msg:hello i fromconfigserver
-
 server:
   port: 8081
 
 spring:
   application:
-    name: SBMS-GREET-API
-  boot:
-    admin:
-      client:
-        url: http://localhost:1111
+    name: greet-api
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+msg: hello i from config server
